@@ -1,0 +1,5 @@
+spring:
+ datasource:
+  url: jdbc:mysql://database-1.ci9a66ce64wp.us-east-1.rds.amazonaws.com:3306/book_ci_cd
+  username: root
+  password: Chanducra0@
