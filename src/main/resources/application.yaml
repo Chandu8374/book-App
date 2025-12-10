@@ -11,7 +11,5 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
     show-sql : true
-  datasource:
-    url: jdbc:mysql://database-1.ci9a66ce64wp.us-east-1.rds.amazonaws.com:3306/book_ci_cd
-    username: admin
-    password: Chandu1234
+  profiles:
+    active: prod
